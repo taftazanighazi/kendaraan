@@ -24,3 +24,7 @@ Auth::routes();
 
 // Route::get('/home', 'HomeController@index');
 // Route::get('/index', 'VehicleController@index');
+
+Route::get('/hello', function () {
+    return 'hello';
+});
