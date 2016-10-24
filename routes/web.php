@@ -28,3 +28,6 @@ Auth::routes();
 Route::get('/hello', function () {
     return 'hello';
 });
+Route::get('/hellojuga', function () {
+    return 'hello juga mas nuli';
+});
